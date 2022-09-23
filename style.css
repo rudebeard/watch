@@ -1,7 +1,17 @@
+.bg-main{
+  background-color: #ea3d62;
+}
+
 body::before{
   content: '';
   height: 75px;
   width: 100%;
   display: block;
   background-color: red;;
+}
+
+@media (min-width:768px){
+  .news-input{
+    width:50%;
+  }
 }
