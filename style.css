@@ -1,0 +1,7 @@
+body::before{
+  content: '';
+  height: 75px;
+  width: 100%;
+  display: block;
+  background-color: red;;
+}
